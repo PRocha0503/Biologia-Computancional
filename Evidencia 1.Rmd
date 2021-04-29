@@ -1,0 +1,470 @@
+---
+title: "Evidencia 1"
+author: "Pablo Rocha"
+date: "April 21, 2021"
+output: html_document
+---
+Matricula = A01028638
+
+
+# Primera Parte
+
+## Investiga, ¿Cuál es la situación actual de COVID-19 a nivel mundial, en México, en tu estado de origen y en tu municipio, alcaldía o colonia? 
+
+A nivel mundial: 
+
+A nivel mundial, hoy 20 de abril del 2021, ha habido 142.293.386 casos confirmados, 3,049,591 muertes y 121,575,065 personas recuperadas. En día de antier hubieron más de 800 mil casos confirmados en un día, la segunda cuenta más alta. Además, hubo 12 mil muertes. Los países con más casos son Estados Unidos, India y Brasil. India siendo el que más casos confirmados tuvo ayer, parte debido a una nueva cepa. 
+
+Por otro lado, la vacunación se está siendo rápida en algunos países y debido a los escases de vacunas lenta en otros. En total se han vacunado 919 millones de personas en el mundo. El país con más porcentaje de vacunación ha sido Israel. 
+
+ 
+
+En México: 
+
+México se encuentra en el lugar 14 a nivel mundial con 2,306,910 de casos confirmados y en el tercer lugar de muertes con 212,466 fallecidos.  
+
+ 
+
+Actualmenteen  México la situación ha mejorado mucho ya que nos encontramos en un punto bajo, con solo 1,300 casos registrados el día de ayer. 
+
+La vacunación en México ha sido lenta y solo se ha vacunado al 11% del país.  La segunda dosis solo se la han puesto al 3% del país. 
+
+ 
+
+En CDMX: 
+
+La Ciudad de México fue el lugar más afectado por el COVID en México con un total de 670 mil casos confirmados y más de 32 mil muertes. El día de ayer tuvo 300 nuevos casos confirmados y 33 muertes. Dentro del semáforo epidemiológico se encuentra en color naranja. 
+
+ 
+
+En Álvaro Obregón: 
+
+La vacunación el Álvaro Obregón fue en la fase 6 y empezaron con adultos mayees el 30 de marzo del 2021 en 4 ubicaciones.  Actualmente Álvaro Obregón es el 1 % de los casos de la CDMX. 
+
+ 
+
+## ¿Cuál fue la primera variante del virus que se propagó a todo el mundo? 
+
+La primera variante del virus que se esparció por el mundo fue SARS-CoV-2, un tipo de coronavirus. Los coronavirus son un tipo de virus que normalmente infectan animales.  Otros coronavirus registrados que han afectado a humanos son MERS identificado en 2012 y SARS que se identificó el mismo año. El  SARS-CoV-2 puede afectar a las personas y que se detectó por primera vez en diciembre de 2019 en la ciudad de Wuhan, provincia de Hubei, en China. Mayoritariamente, en un 80% de los casos solo produce síntomas leves respiratorios. Los datos actuales indican que el virus se propaga, principalmente, por medio de gotas respiratorias entre personas que están en contacto cercano.  Este virus después se pue propagando por el virus hasta que se volvió una pandemia. 
+
+## ¿Cuáles son las otras variantes del virus que existen en otras regiones del mundo? 
+
+Existen muchas variantes del virus, un grupo del gobierno de Estados Unidos creo una clasificación de los más importantes, debido a que son muchos aquí solo serán presentadas las variantes que están definidas como variantes de preocupación. 
+
+Nombre: B.1.1.7 
+
+Primera Detección: Reino Unido 
+
+Atributos:  
+
+50 % de aumento de transmisión 
+
+Probable aumento en la gravedad con base en las tasas de hospitalización y muerte 
+
+Mínimo impacto en la neutralización por tratamientos de anticuerpos monoclonales con EUA 
+
+Mínimo impacto en la neutralización por sueros de convaleciente y postvacunación 
+
+Nombre: P.1 
+
+Primera Detección: Japón/Brasil 
+
+Atributos: 
+
+Impacto moderado en la neutralización por tratamientos de anticuerpos monoclonales con EUA 
+
+Nombre: B.1.35 
+
+Primera Detección: Sudáfrica 
+
+Atributos: 
+
+50 % de aumento de transmisión 
+
+Impacto moderado en la neutralización por tratamientos de anticuerpos monoclonales con EUA 
+
+Reducción moderada en la neutralización por sueros de convaleciente y postvacunación 
+
+ 
+
+Nombre: B.1.43 
+
+Primera Detección: EE. UU.-California  
+
+Atributos: 
+
+20 % de aumento de transmisibilidad 
+
+Impacto significativo en la neutralización por parte de algunos tratamientos con EUA, pero no todos 
+
+Reducción moderada en la neutralización al utilizar sueros de convaleciente y postvacunación 
+
+ 
+
+## ¿Cómo buscarías información de la variante del virus en tu país?  
+
+Dentó de la página de NCBI Virus hay un apartado de árbol. Ahí puedes buscar el país que quieras, buscaría México. La página te enseña que tan cerca están las tomas de México del de referencia. Así podría ver que tan parecido es y a que otras variantes es parecido. Además de eso buscaría en fuentes confiables que informen de diferentes cepas que han llegado a México. Por último checaría la página de Estados Unidos donde informan de las cepas para buscar si México aparece. 
+
+ 
+
+## Imagina que te encuentras en una situación similar a la de Li Wenliang, médico chino que intentó alertar sobre el brote de coronavirus en su país, pero fue detenido por las autoridades y obligado a retractarse, ¿qué harías en su caso? Selecciona un inciso:a) Lo reportas al centro de investigación o la universidad. b) Lo reportas a la prensa. c) Guardas la información. Elige y justifica tu respuesta. Revisa el siguiente video como apoyo: 
+
+En el caso de que me encontrara en el caso de Li Wenlaing definitivamente hubiera hecho la opción de reportarlo a la prensa. Anqué reportarlo a un centro de investigación me parece buena opción, no se sabe que tan involucrado está el gobierno, por lo que pudo haber silenciado al laboratorio antes de que pudieran hacer algo al respecto. Tampoco guardaría la información debido a que no sería ético, tenido información que posiblemente podría salvar a mucha gente es claro que se tendria que decir.  Debido a lo anterior definitivamente elegiría la opción B, pero lo haría de forma que lo hizo Edward Snowden. Edward Snowden saco información secreta de Estados Unidos que pensaba que el público tenía un derecho a saber. Primero agarro evidencia que podría dar a los medios, luego encontró un noticiero confiable. Donde el sabría que la información proporcionada se daría a conocer de forma correcta. Tercero lo hizo fuera de su país para que no lo pudieran arrestar. Esta sería mi situación ideal, pero es claro que el tiempo corría en contra, por lo que eso podría tardar mucho. Lo importante para mí sería dar evidencia un medio confiable, sin importar las consecuencias a mí. Un medio de comunicación crearía presión a China a cerrar sus fronteras y controlar el virus.  
+
+De haber sido así quien sabe cómo puedo haberse desarrollado la pandemia, cuando México detecto un crecimiento de enfermedades respiratorias en dos estados lo hizo saber a la OMS. Una semana después la OMS ya trabajaba con autoridades para planificar como combatir la pandemia. Aunque el virus H1N1 aun quita muchas vidas cada año, es claro que la situación fue manejada de mucho mejor forma que la actual. La transparencia es base. 
+
+# Segunda Parte
+
+## Informacion importante de las bases de datos
+Se selecionaron 14 diferentes variantes de el SARS-CoV-2 de NCBI. 
+8 de estas son lo mas recientes en diferentes continentes del mundo, 3 de ellos debido a las nuevas cepas(Brasil, Reino Unido e India).
+Los otros 5 fueron selecionados intentando incluir muchas partes del mundo, estos incluyen a Mexico, EU, Peru,Bahrain y Egipto. 
+Todas fueron tomadas en abril de 2021.
+
+Por otro lado se eligieron muestras lo mas antiguas que se eligieron 1 de China, 1 de EU, 1 de Brasil y 1 de Italia. Estas se pueden identificar por tener un _v alado del codigo de pais.
+
+Por utimo se incluyo la secuencia de referencia para tener punto de comparacion y la secuencia de un gato solo para comparar la enfermedad en otros animales.
+
+Primero importamos las librerias que vamos a requerir
+
+```{r}
+library(seqinr)
+library(ggplot2)
+```
+
+Luego se importan todas las sequencias que van a ser utilizadas
+
+```{r}
+reference = read.fasta("Covid/ref.fasta")
+egipto = read.fasta("Covid/egipto.fasta")
+bahrain = read.fasta("Covid/bahrain.fasta")
+uk = read.fasta("Covid/uk.fasta")
+mex = read.fasta("Covid/mex.fasta")
+india = read.fasta("Covid/india.fasta")
+usa = read.fasta("Covid/usa.fasta")
+peru = read.fasta("Covid/peru.fasta")
+brasil = read.fasta("Covid/brasil.fasta")
+china_v = read.fasta("Covid/china_vieja.fasta")
+usa_v = read.fasta("Covid/usa_vieja.fasta")
+brasil_v = read.fasta("Covid/brasil_vieja.fasta")
+italia_v = read.fasta("Covid/italia_vieja.fasta")
+gato = read.fasta("Covid/gato.fasta")
+```
+
+## Se ponen todas las sequencias en una sola lista para poder acceder a ellas mas rapido
+ 
+```{r}
+sequencias = c();
+sequencias = c(reference);
+sequencias = c(sequencias,egipto);
+sequencias = c(sequencias,bahrain);
+sequencias = c(sequencias,uk);
+sequencias = c(sequencias,mex);
+sequencias = c(sequencias,india);
+sequencias = c(sequencias,usa);
+sequencias = c(sequencias,peru);
+sequencias = c(sequencias,brasil);
+sequencias = c(sequencias,china_v);
+sequencias = c(sequencias,usa_v);
+sequencias = c(sequencias,brasil_v);
+sequencias = c(sequencias,italia_v);
+sequencias = c(sequencias,gato);
+```
+
+## Creamos una funcion para hacer una lista con sus tamaños y una para imprimirlos
+
+```{r}
+tamaños = c();
+for (elemento in sequencias){
+  tam = length(elemento);
+  tamaños = c(tamaños,tam);
+}
+
+imprimirTamaños = function(size,seq){
+  for(s in seq){
+    nom = attr(s,"Annot");
+    print(nom)
+    print(length(s))
+  }
+}
+
+print("---------TAMAÑOS--------")
+imprimirTamaños(tamaños,sequencias)
+```
+
+## Funcion para calcular el porcentaje de cada nucleotido e imprimirlo
+
+```{r}
+## Calculamos porcentaje de cada nucleotido
+lista_porcentajes = c()
+porcentajePorBase = function(listadna,tamaño,lisa_por){
+  porcentajes = c()
+  contadorA = 0;
+  contadorG = 0;
+  contadorT = 0;
+  contadorC = 0;
+  contadorN = 0;
+  for(elemento in listadna){
+    if(elemento == "a"){
+      contadorA = contadorA + 1;
+    }
+    else if(elemento == "g"){
+      contadorG = contadorG + 1;
+    }
+    else if(elemento == "t"){
+      contadorT = contadorT + 1;
+    }
+    else if(elemento == "c"){
+      contadorC = contadorC + 1;
+    }
+    else{
+      contadorN = contadorN + 1;
+    }
+  }
+  porcentajes= c(porcentajes, ((contadorA/(tamaño-contadorN))*100))
+  porcentajes= c(porcentajes, ((contadorG/(tamaño-contadorN))*100))
+  porcentajes= c(porcentajes, ((contadorT/(tamaño-contadorN))*100))
+  porcentajes= c(porcentajes, ((contadorC/(tamaño-contadorN))*100))
+  return(lista_por = c(lisa_por,porcentajes))
+}
+
+imprimirPorcentajes = function(lista_por,seq){
+  contador = 0;
+  for(s in seq){
+    nom = attr(s,"Annot");
+    print(nom)
+    tamaño = length(s)
+    lista_por = porcentajePorBase(s,tamaño,lista_por)
+    print(paste0("El porcentajes de As es: ",(lista_por[contador + 1])))
+    print(paste0("El porcentajes de Gs es: ",(lista_por[contador +2])))
+    print(paste0("El porcentajes de Ts es: ",(lista_por[contador +3])))
+    print(paste0("El porcentajes de Cs es: ",(lista_por[contador +4])))
+    contador = contador + 4;
+  }
+  return(lista_por)
+}
+
+print("--------PORCENTAJES--------")
+lista_porcentajes = imprimirPorcentajes(lista_porcentajes,sequencias)
+```
+
+## Graficamos cada base
+Como se pudo observar que las diferencias eran muy chicas se decidio hacer una grafica para cada nucleotido, asi se podria modificar los valores de "y" y observar las diferencias.
+SE HICIERON GRAFICAS INDIVIDUALES PARA PODER OBSERVAR LA DIFERENCIAS
+
+### A
+```{r}
+nombres = c("Ref","EGY","BHA","UK","MEX","IND","USA","PRU","BRA","CHI_V","USA_V","BRA_V","ITA_V","GAT")
+as = c()
+contador = 0
+for(i in 1:length(sequencias)){
+  as = c(as,lista_porcentajes[1+contador])
+  contador = contador + 4
+}
+df = data.frame(dose=nombres,
+                 len=as)
+ggplot(df, aes(y=as, x=nombres,fill = nombres)) + geom_bar(position="dodge", stat="identity") + coord_cartesian(ylim=c(29,30))
+```
+
+### G
+
+```{r}
+gs = c()
+contador = 0
+for(i in 1:length(sequencias)){
+  gs = c(gs,lista_porcentajes[2+contador])
+  contador = contador + 4
+}
+
+ggplot(df, aes(y=gs, x=nombres,fill = nombres)) + geom_bar(position="dodge", stat="identity")+ coord_cartesian(ylim=c(19,19.75))
+
+```
+
+### T
+
+```{r}
+ts = c()
+contador = 0
+for(i in 1:length(sequencias)){
+  ts = c(ts,lista_porcentajes[3+contador])
+  contador = contador + 4
+}
+
+ggplot(df, aes(y=ts, x=nombres,fill = nombres)) + geom_bar(position="dodge", stat="identity")+ coord_cartesian(ylim=c(31.5,32.5))
+
+```
+
+### C
+
+```{r}
+cs = c()
+contador = 0
+for(i in 1:length(sequencias)){
+  cs = c(cs,lista_porcentajes[4+contador])
+  contador = contador + 4
+}
+
+ggplot(df, aes(y=cs, x=nombres,fill = nombres)) + geom_bar(position="dodge", stat="identity")+ coord_cartesian(ylim=c(18,18.5))
+```
+
+## Grafica General
+```{r}
+## Grafica de todos 
+letras <- c(rep("A" , 14) , rep("G" , 14) , rep("T" , 14) , rep("C" , 14) )
+nombres_rep = rep(nombres,4)
+todos = c()
+todos = c(todos,as)
+todos = c(todos,cs)
+todos = c(todos,ts)
+todos = c(todos,gs)
+data <- data.frame(nombres_rep,letras,todos)
+
+ggplot(data, aes(fill=letras, y=todos, x=nombres_rep)) + geom_bar(position="dodge", stat="identity")
+```
+
+## Calcular GC e imprimir
+
+```{r}
+gc = function(lista_por,seq,lista_gc){
+  contador = 0
+  for(i in 1:length(seq)){
+    g_c = lista_por[contador+2]+lista_por[contador+4];
+    lista_gc = c(lista_gc,g_c)
+    contador = contador + 4;
+  }
+  return(lista_gc)
+}
+
+imprimirgc = function(lista_gc,seq){
+  for(i in 1:length(seq)){
+    nom = attr(seq[[i]],"Annot");
+    print(nom)
+    print(lista_gc[i])
+  }
+}
+gcs = c()
+gcs = gc(lista_porcentajes,sequencias,gcs)
+imprimirgc(gcs,sequencias)
+```
+
+## Complementos
+
+```{r}
+complementario=function(listadna){
+  complemento = c();
+  for(elemento in listadna){
+    if(elemento == "a"){
+      complemento = c(complemento,"t");
+    }
+    else if(elemento == "g"){
+      complemento = c(complemento,"c");
+    }
+    else if(elemento == "t"){
+      complemento = c(complemento,"a");
+    }
+    else if(elemento == "c"){
+      complemento = c(complemento,"g");
+    }
+    else{
+    }
+  }
+  return (complemento)
+}
+
+imprimirComplemento = function(seq){
+  todos_com = list()
+  for(i in 1:length(seq)){
+    nuevo_com = complementario(seq[[i]])
+    print(head(nuevo_com))
+    todos_com[[i]] = c(nuevo_com)
+  }
+  return(todos_com)
+}
+complementos = list()
+complementos = imprimirComplemento(sequencias)
+```
+
+## Similitudes
+
+Los porcentajes de nucleotidos parecen ser extremadamente parecidos en la mayoria, pero esto no significa que el orden de las letras es parecido, para tener una prespectiva mas completa se comparo la secuencia de referencia con todas las demas.
+
+```{r}
+# Similitud
+similitud = function(seq){
+  sim =c()
+  for(i in 1:length(seq)){
+    vf = seq[[1]] == seq[[i]]
+    v = sum(vf, na.rm = TRUE)
+    por_sim = v/length(seq[[1]])
+    sim = c(sim,por_sim)
+  }
+  return(sim)
+}
+lista_similitudes = similitud(sequencias)
+```
+
+## Imprimir Similitudes
+
+```{r}
+df = data.frame(dose=nombres,
+                 len=lista_similitudes)
+ggplot(df, aes(y=lista_similitudes, x=nombres,fill = nombres)) + geom_bar(position="dodge", stat="identity")+labs(y="% de similitud con referencias", x = "Paises")
+```
+
+## Analisis de graficas
+Los tamaños de todas parecen ser muy parecidos la muestra más grande tiene 29903 elemento y la más chica solo 150 menos.  Todos los demás tamaños se encuentran por el mismo rango, alrededor de los 29800s altos.  
+
+En el caso del %GC todas las muestras están en un rango de solo 0.1% de diferencia, todas entre los 37.9% y 38.0% El promedia dé %GC de los virus es alrededor el 41% por lo que están un poco por abajo del promedio. Debido a esto su secuencia de ADN debería de ser ligeramente más fácil de separar. 
+
+Al observar el primer set de graficas se nota poca diferencia entre el porcentaje de nucleótidos de cada secuencia. Las diferencias son muy chicas, la diferencia más grande es de menos de 0.2%. Esto puede sonar como poco, pero considerando que los tamaños son de alrededor de 29 mil nucleótidos, este 0.2% representaría un cambio de 580 nucleótidos diferentes, lo que sí podría representar un cambio importante en el virus. Observando al grafica se nota que la variación más alta se encuentra en las As entre la muestra de Bahréin que fue tomada el mes de abril de 2021 y la toma de china tomada hace más de 1 año. Es interesante notar que aun en las tomas más viejas el virus tiene pequeñas variaciones de porcentajes, por ejemplo, la secuencia de China vieja tiene un porcentaje de T de 32.08% y la de Brasil de 32.11, diferencias chicas pero significativas para la poca diferencia de tiempo entre muestras (Solo 1 mes de diferencia entre las dos). 
+
+Se hizo otra grafica para poder tener unas perspectiva más amplia. Esta vez la gráfica sería una comparación nucleótido por nucleótido de la secuencia de referencia con todas las demás. Los resultados de esta grafica fueron extremadamente interesantes. Existen 4 barras que están cerca del 1 (100% de similitud), todas esas barras representan tomas viejas del virus en diferentes partes del mundo. Era claro que la de referencia y la toma de China vieja serían muy similares debido a que la referencia fue tomada en China por la misma época. Sin embargo, se puede ver que cuando se esparció inicialmente a partes como Brasil, Italia y Estados Unidos el virus era prácticamente igual al identificado en China. Lo que más sorprendente de esta grafica es lo diferente de todas las demás tomas (que son lo más actual posible) no tienen mucho parecido con la muestra de referencia. Se puede observar que las tomas del Reino Unido y Egipto tienen alrededor de 50% de parecido. Mientras que todas las demás tienen menos de 30% de similitud con la secuencia de referencia. La toma actual de India (que es considerada una nueva cepa) y la de un gato tienen lo mismo en común con la toma de referencia. Podría ser que solo 1 letra desfaso a muchas por lo salió una similitud tan baja, aun así, es sorprendente ver como si ha cambiado el SARS CoV-2 atreves del tiempo.  
+
+Debido a las claras diferencias de cada tiempo, se decidido elegir una tercera secuencia de Estados Unidos, esta vez una intermedia. De esta forma se vería el cambio a lo largo del tiempo. Se eligió una secuencia de mayo del 2020. 
+
+### Grafica extra solo EU
+```{r}
+usa_i = read.fasta("Covid/usa_i.fasta")
+usas =c()
+usas = c(usas,usa_v)
+usas = c(usas,usa_i)
+usas = c(usas,usa)
+nombres_usa = c("Vieja","Intermedia","Nueva")
+similitud_usa = function(seq,ref){
+  sim =c()
+  for(i in 1:length(seq)){
+    print(attr(seq[[i]],"Annot"))
+    vf = ref == seq[[i]]
+    v = sum(vf, na.rm = TRUE)
+    por_sim = v/length(seq[[1]])
+    sim = c(sim,por_sim)
+  }
+  return(sim)
+}
+print(length(usas))
+sim_usa = similitud_usa(usas,sequencias[[1]])
+df = data.frame(dose=nombres_usa,
+                len=sim_usa)
+ggplot(df, aes(y=sim_usa, x=nombres_usa,fill = nombres_usa)) + geom_bar(position="dodge", stat="identity")+labs(y="% USA con referencias", x = "Paises")+ coord_cartesian(ylim=c(.2,1))
+```
+
+Aunque sea chica la diferencia, se puede observar que las segunda es poco menos parecida a la original
+ 
+Pablo Rocha
+A01028638
+
+## Referencias 
+
+¿Qué es el Coronavirus SARS-CoV-2? | Hospital Clínic Barcelona. (2021). Retrieved 21 April 2021, from https://www.clinicbarcelona.org/asistencia/enfermedades/covid-19/definicion 
+
+(2021). Retrieved 21 April 2021, from https://coronavirus.gob.mx/semaforo/ 
+
+(2021). Retrieved 21 April 2021, from https://datos.cdmx.gob.mx/dataset/ubicacion-de-unidades-de-vacunacion-covid-19/resource/64779811-b127-475e-a17f-db7c9b90b1a2?view_id=a0cd6116-6c6b-4031-89b7-e0305b776e07 
+
+(2021). Retrieved 21 April 2021, from https://covid19.cdmx.gob.mx/comunicacion/nota/listado-de-colonias-pueblos-y-barrios-de-atencion-prioritaria-por-covid-19 
+
+COVID-19 Map - Johns Hopkins Coronavirus Resource Center. (2021). Retrieved 21 April 2021, from https://coronavirus.jhu.edu/map.html 
+
+COVID Live Update: 144,235,712 Cases and 3,065,828 Deaths from the Coronavirus - Worldometer. (2021). Retrieved 21 April 2021, from https://www.worldometers.info/coronavirus/ 
+
+Tracking Coronavirus Vaccinations Around the World. (2021). Retrieved 21 April 2021, from https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html 
