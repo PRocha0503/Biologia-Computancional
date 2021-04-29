@@ -1,0 +1,236 @@
+---
+title: "Segunda Evidencia"
+author: "Pablo Rocha"
+date: "April 25, 2021"
+---
+## Video
+https://youtu.be/-ApoB-DSTwc 
+
+```{r message=FALSE}
+library(seqinr)
+library(ggplot2)
+library(Biostrings)
+library(ape)
+library(ggtree)
+library(DECIPHER)
+library(viridis)
+library(ggplot2)
+library(seqinr)
+library(ggplot2)
+## Agregar Sequencias
+sequencias = read.fasta("todos.fasta")
+nombres =c("229E_n","229E_v","NL63_n","NL63_v","OC43_n","OC43_v","HKU1_n","HKU1_v","MERS_nAS","MERS_nUK","MERS_v","SARS_vHK","SARS_vUS","SARS_nUS","S2_nUS04","S2_nUS01","S2_nUK12","S2_vUK","S2_ref","S2_nBR","S2_nIN","S2_nMX")
+nombres_graf =c("2n","2v","Nn","Nv","On","Ov","Hn","Hv","MnA","MnU","Mv","SvH","SvU","SnU","S2nUS1","S2nUS2","S2nUK","S2vUK","S2r","S2B","S2I","S2M")
+
+
+##Cambiamos nombres para que sean mas faciles de entender
+
+for(i in 1:length(sequencias))
+    attr(sequencias[[i]],"Annot") = nombres[i]
+
+## Calculamos el tamaño de cada una:
+tamaños = c();
+for (elemento in sequencias){
+  tam = length(elemento);
+  tamaños = c(tamaños,tam);
+}
+
+imprimirTamaños = function(size,seq){
+  for(s in seq){
+    nom = attr(s,"Annot");
+    print(nom)
+    print(length(s))
+  }
+}
+```
+
+```{r}
+imprimirTamaños(tamaños,sequencias)
+```
+
+
+## Calcular Nucleotidos
+
+```{r}
+## Calculamos porcentaje de cada nucleotido
+lista_porcentajes = c()
+porcentajePorBase = function(listadna,tamaño,lisa_por){
+  porcentajes = c()
+  contadorA = 0;
+  contadorG = 0;
+  contadorT = 0;
+  contadorC = 0;
+  contadorN = 0;
+  for(elemento in listadna){
+    if(elemento == "a"){
+      contadorA = contadorA + 1;
+    }
+    else if(elemento == "g"){
+      contadorG = contadorG + 1;
+    }
+    else if(elemento == "t"){
+      contadorT = contadorT + 1;
+    }
+    else if(elemento == "c"){
+      contadorC = contadorC + 1;
+    }
+    else{
+      contadrN = contadorN +1;
+    }
+  }
+  porcentajes= c(porcentajes, ((contadorA/(tamaño-contadorN))*100))
+  porcentajes= c(porcentajes, ((contadorG/(tamaño-contadorN))*100))
+  porcentajes= c(porcentajes, ((contadorT/(tamaño-contadorN))*100))
+  porcentajes= c(porcentajes, ((contadorC/(tamaño-contadorN))*100))
+  return(lista_por = c(lisa_por,porcentajes))
+}
+
+imprimirPorcentajes = function(lista_por,seq){
+  contador = 0;
+  for(s in seq){
+    nom = attr(s,"Annot");
+    print(nom)
+    tamaño = length(s)
+    lista_por = porcentajePorBase(s,tamaño,lista_por)
+    print(paste0("El porcentajes de As es: ",(lista_por[contador + 1])))
+    print(paste0("El porcentajes de Gs es: ",(lista_por[contador +2])))
+    print(paste0("El porcentajes de Ts es: ",(lista_por[contador +3])))
+    print(paste0("El porcentajes de Cs es: ",(lista_por[contador +4])))
+    contador = contador + 4;
+  }
+  return(lista_por)
+}
+lista_porcentajes = imprimirPorcentajes(lista_porcentajes,sequencias)
+
+## Asignar porcentajes como atributo para aceso facil
+contador = 0
+for(i in 1:length(sequencias)){
+  attr(sequencias[[i]],"A") = (lista_porcentajes[contador + 1])
+  attr(sequencias[[i]],"G") = (lista_porcentajes[contador + 2])
+  attr(sequencias[[i]],"T") = (lista_porcentajes[contador + 3])
+  attr(sequencias[[i]],"C") = (lista_porcentajes[contador + 4])
+  contador = contador + 4;
+}
+contador = 0
+as = c()
+for(i in 1:length(sequencias)){
+  as = c(as,lista_porcentajes[1+contador])
+  contador = contador + 4
+}
+gs = c()
+contador = 0
+for(i in 1:length(sequencias)){
+  gs = c(gs,lista_porcentajes[2+contador])
+  contador = contador + 4
+}
+ts = c()
+contador = 0
+for(i in 1:length(sequencias)){
+  ts = c(ts,lista_porcentajes[3+contador])
+  contador = contador + 4
+}
+cs = c()
+contador = 0
+for(i in 1:length(sequencias)){
+  cs = c(cs,lista_porcentajes[4+contador])
+  contador = contador + 4
+}
+
+## Grafica de todos 
+letras <- c(rep("A" , 22) , rep("G" , 22) , rep("T" , 22) , rep("C" , 22) )
+nombres_rep = rep(nombres_graf,4)
+todos = c()
+todos = c(todos,as)
+todos = c(todos,cs)
+todos = c(todos,ts)
+todos = c(todos,gs)
+data = data.frame(nombres_rep,letras,todos)
+
+ggplot(data, aes(fill=letras, y=todos, x=nombres_rep)) + geom_bar(position="dodge", stat="identity")+labs(y="% de nucleotidos", x = "Secuencias")+theme(text = element_text(size=20),axis.text.x = element_text(angle=90, hjust=1)) 
+```
+
+## Análisis primer gráfica: 
+
+ 
+
+Lo primero que más sobre sale de la primera grafica es el porcentaje de timina que contienen los NL63 y los OC43. En el caso del OC43 contienen casi 40% de timina y alrededor de 25% de adenina. Esto sería un porcentaje de GC de 32% es un extremadamente baja comparada a 49% (promedio de contenido de GC en virus). Esto significa que estas secuencias serian poco complicadas de separar. Es muy interesante ver la gran similitud de porcentajes que tienen esos dos tipos de coronavirus. Lo que lo hace más interesante es que uno de ellos es un Alpha coronavirus y el otro es una beta. Considerando que HKU1 y OC43 los dos son beta coronavirus y 229E y NL&3 son Alpha coronavirus, mi hipótesis era que habría más parecido entre estos, una hipótesis que por lo menos en porcentajes de bases ya fue probada falsa. 
+
+ 
+
+Otra cosa que se puede observar es como dentro de estos virus, sin importar la diferencia de años (por ejemplo, unos fueron tomados con 30 años de diferencia) los porcentajes siguen siendo mucho más parecidos ente ellos que con otros tipos de coronavirus. Otra hipótesis es que las secuencias que fueron tomadas hace muchos años y con otros tipos de técnicas saldrían con lecturas incongruentes. Esta hipótesis de misma forma fue incorrecta debido a que los resultantes son bastante constantes.  
+
+ 
+
+Observando la gráfica con detalle se puede observar de donde proviene el nombre SARS CoV-2, ya que se empiezan a ver similitudes. Los porcentajes de nucleótidos entre el SARS2 y SARS son bastante parecidos en todas las bases. Esto se podrá comprobar mejor en el árbol.  
+
+ 
+
+Por último, otra cosa que me parece que es de notar (que ya fue tocado) es la precisión de las muestras pasadas. Como ya mencioné esperaba que las muestras más viejas tuvieran una cantidad más alta de N, es decir nucleótidos no identificados, y este si fue el caso, pero no a la escala que yo esperaba. La muestra con más cantidad de N tiene solo 1% de N, considerando que sus tamaños son de 30 mil nucleótidos esto equivaldría a 300 que es un numero algo significativa. 
+
+## Arbol de los coronavirus
+
+```{r message=FALSE}
+## Para hacer el arbol
+#write.dna(sequencias,  file ="virus_seqs.fasta", format = "fasta", append =FALSE, nbcol = 6, colsep = "", colw = 10)
+virus_seq_not_align = readDNAStringSet("todos.fasta", format = "fasta")
+for(i in 1:length(virus_seq_not_align)){
+  names(virus_seq_not_align)[i] = nombres[i] 
+}
+virus_seq_not_align = OrientNucleotides(virus_seq_not_align)
+virus_seq_align = AlignSeqs(virus_seq_not_align)
+writeXStringSet(virus_seq_align, file="virus_seq_align.fasta")
+virus_aligned = read.alignment("virus_seq_align.fasta", format = "fasta")
+matriz_distancia = dist.alignment(virus_aligned, matrix = "similarity")
+virus_tree = nj(matriz_distancia)
+virus_tree = ladderize(virus_tree)
+```
+```{r}
+plot(virus_tree, cex = 0.6)
+title("Arbol de los coronavirus")
+```
+
+## Análisis segundo gráfica: 
+
+Primero es importante observar que el árbol enseña que esta ocasión los virus 229E y NL63 si son más parecidos. Anqué como ya fue mencionado antes OC43 y NL63 fueran más similares en los porcentajes de nucleótidos al momento de alinear no son tan similares. Con las alineaciones los coronavirus Alpha y los coronavirus beta se mostraron más parecidos: 
+
+229E (alpha coronavirus)  
+
+NL63 (alpha coronavirus)  
+
+OC43 (beta coronavirus)  
+
+HKU1 (beta coronavirus) 
+
+Otro aspecto que notar es como estos 4 coronavirus que son poco conocidos ya que crean síntomas muy leves están relacionados en el árbol. Podemos ver que hasta abajo tenemos los Alpha y un poco más arriba la beta y estos se juntan. Se pude observar que el año que se tomó la muestra realmente no afecto, ya que todos los virus están en la misma rama que su muestra vieja. Podría ser posible que por su parecido estos virus creen síntomas semejantes. 
+
+ 
+
+De las cosas que más sorprenden de esta representación es lo cerca que aparece el MERS de los otros 4 coronavirus que causan síntomas leves. La tasa de mortalidad de MERS es de alrededor del 9.5%. Por lo que la semejancita con virus tan poco dañinos para la salud humana es sorprendente. Esto demuestra que pequeñas modificaciones pueden cambiar de gran forma como el virus afecta a los humanos. Es una de las razones por las cuales las mutaciones son tan preocupantes. 
+
+ 
+
+En el siguiente escalón se encuentra el SARS, en las muestras de este las de Estados Unidos tienen una pequeña variación a la original de Hong Kong. El cambio es chico pero notable. Aquí se nota porque le decimos SARS CoV2 ya que de los coronavirus conocidos el SARS es el que más se aparenta con SARS2. Aun así, viendo la representación no me parece un nombre adecuado. El SARS es casi igual de parecido del SARS2 que del MERS, ¿Debido a esto le debimos haber nombrado al SARS, MERS2 desde el inicio? Me parece que la respuesta es no, los virus son diferentes y cada uno sería más adecuado que tuviera un nombre diferente y representativo. 
+
+ 
+
+Por último, se llega a el SARS Cov-2, la pandemia actual. Las muestras tienen pequeñas diferencias, pero las tienen. Es interesante como muestras más nuevas del Reino Unido y de Estados Unidos se parecen más al SARS que la secuencia de SARS CoV-2 de referencia. La segunda cosa que India fue tomada a finales de febrero, la muestra no es parte de la nueva cepa Inda que tanto se habla. Parece ser una muestra anterior a esto. La muestra más nueva del virus en Estados Unidos parece ser algo diferente que las anteriores, posiblemente en este caso fue de alguna cepa. Es sorprendente ver el parecido entre la secuencia de México y la de Brasil, las autoridades han confirmado que llego la cepa Brasileña México hace unos meses. Es muy posible que esta muestra haya sido de este conjunto de personas.
+
+
+## Otra forma de verlo
+```{r}
+ggtree(virus_tree, layout="slanted", open.angle=120)+ geom_tiplab()
+```
+
+
+## Referencias:
+H. Pagès, P. Aboyoun, R. Gentleman and S. DebRoy (2019). Biostrings: Efficient manipulation of biological strings. R package
+  version 2.54.0
+Charif, D. and Lobry, J.R. (2007)
+H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
+Paradis E. & Schliep K. 2019. ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics
+  35: 526-528.
+Guangchuang Yu, David Smith, Huachen Zhu, Yi Guan, Tommy Tsan-Yuk Lam. ggtree: an R package for visualization and annotation of
+  phylogenetic trees with their covariates and other associated data. Methods in Ecology and Evolution 2017, 8(1):28-36
+Wright ES (2016). “Using DECIPHER v2.0 to Analyze Big Biological Sequence Data in R.” _The R Journal_, *8*(1), 352-359.
+Simon Garnier, Noam Ross, Robert Rudis, Antônio P. Camargo, Marco Sciaini, and Cédric Scherer (2021). Rvision -
+  Colorblind-Friendly Color Maps for R. R package version 0.6.0.
